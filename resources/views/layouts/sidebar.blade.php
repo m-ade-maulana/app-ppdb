@@ -51,7 +51,7 @@
                 <div data-i18n="Account Settings">Upload Berkas</div>
             </a>
         </li>
-        <li class="menu-item">
+        {{-- <li class="menu-item">
             <a href="{{ route('akun') }}" class="menu-link">
                 <i class="menu-icon tf-icons fa-solid fa-user"></i>
                 <div data-i18n="Authentications">Akun</div>
@@ -62,7 +62,7 @@
                 <i class="menu-icon tf-icons fa-solid fa-sign-out"></i>
                 <div data-i18n="Authentications">Keluar</div>
             </a>
-        </li>
+        </li> --}}
     </ul>
 </aside>
 <!-- / Menu -->
