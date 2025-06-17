@@ -44,10 +44,9 @@ class AuthController extends Controller
             ]);
 
             Auth::login($user);
-
             return redirect('/home');
         } catch (\Exception $e) {
-            return redirect('/')->with('error', 'Login Failed' . error_log($e));
+            return redirect('/')->with('error', 'Login Failed' . $e->getMessage());
         }
     }
 
